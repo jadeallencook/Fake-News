@@ -1,0 +1,21 @@
+[
+    {
+        "quote": "It's freezing and snowing in New York--we need global warming!",
+        "name": "@realdonaldtrump",
+        "fake": false,
+        "right": "You know your Trump...",
+        "wrong": "You'd think he wouldn't have said that but he did!"
+    }, {
+        "quote": "If the Dow Jones ever falls more than 1000 ‘points’ in a Single Day the sitting president should be 'loaded' into a very big cannon and Shot into the sun at TREMENDOUS SPEED! No excuses!",
+        "name": "@realdonaldtrump",
+        "fake": true,
+        "right": "Some wish he said that but it's a false rumor...",
+        "wrong": "Some wish he said that but it's a false rumor..."
+    }, {
+        "quote": "Thanks- many are saying I'm the best 140 character writer in the world. It's easy when it's fun.",
+        "name": "@realdonaldtrump",
+        "fake": false,
+        "right": "How did you know?!",
+        "wrong": "Haha, you didn't think he would say that about himself?"
+    }
+]

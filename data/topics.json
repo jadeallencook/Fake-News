@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Donald Trump",
+        "slug": "donald-trump",
+        "icon": "images/trump.png"
+    }, {
+        "title": "Deseret News",
+        "slug": "deseret-news",
+        "icon": "images/hive.png"
+    }
+]

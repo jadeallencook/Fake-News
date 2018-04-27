@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Source+Serif+Pro" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Deseret News | Fake News</title>
+</head>
+
+<body>
+    <div id="game-wrapper">
+        <div id="menu" class="scene">
+            <h1 class="animated bounceInDown">Choose a topic...</h1>
+            <div class="topics"></div>
+        </div>
+        <div id="answer" class="scene">
+            <h1 class="animated bounceInDown">Loading...</h1>
+            <span class="points animated bounceIn"></span>
+            <span class="message"></span>
+            <div class="btn next animated bounceIn">NEXT</div>
+            <div class="btn menu animated bounceIn">MENU</div>
+        </div>
+        <div id="level" class="scene">
+            <h1 class="animated bounceInDown">Is it true?</h1>
+            <span id="quote" class="animated bounceInLeft"></span>
+            <span id="name" class="animated bounceInRight"></span>
+            <div id="controls-wrapper">
+                <div class="btn false animated rotateIn" data-option="true">
+                    <i class="fa fa-times"></i>
+                </div>
+                <div class="btn true animated rotateIn" data-option="fake">
+                    <i class="fa fa-check"></i>
+                </div>
+            </div>
+        </div>
+        <div id="game-over" class="scene"></div>
+        <span class="animated bounceInUp footer">Fake News | Deseret News | Developed By Jade Allen Cook</span>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+$headerFont: 'Pacifico';
+$subFont: 'Source Serif Pro';
+$black: #000;
+$white: #FFF;
+$blue: #4EA0EC;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+div#game-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: $white;
+    background-color: $blue;
+    font-family: $subFont;
+    span.footer {
+        display: block;
+        font-size: 0.75em;
+        margin: 25px 0px;
+        text-align: center;
+    }
+    h1 {
+        font-family: $headerFont;
+        font-size: 2em;
+        font-weight: 100;
+        text-align: center;
+    }
+    div.scene {
+        display: none;
+    }
+    div#menu {
+        div.topics {
+            text-align: center;
+            div:hover {
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            div {
+                text-align: center;
+                display: inline-block;
+                margin: 25px;
+                img {
+                    display: block;
+                    width: 75px;
+                    margin: 0px auto;
+                }
+            }
+        }
+    }
+    div#level {
+        span#quote,
+        span#name {
+            display: block;
+            width: 80%;
+            max-width: 500px;
+            margin: 15px auto;
+            font-size: 2em;
+        }
+        span#name {
+            font-weight: bold;
+        }
+        div#controls-wrapper {
+            text-align: center;
+            margin-top: 25px;
+            div.btn {
+                display: inline-block;
+                margin: 0px 15px;
+                height: 75px;
+                width: 75px;
+                color: $blue;
+                background-color: $white;
+                padding: 15px;
+                font-size: 4em;
+                border-radius: 100%;
+            }
+            div.btn:hover {
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+    }
+    div#answer {
+        text-align: center;
+        span.points {
+            display: block;
+            text-align: center;
+            font-size: 4em;
+        }
+        span.message {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            font-style: oblique;
+            width: 75%;
+            max-width: 250px;
+            margin: 0px auto 15px auto;
+        }
+        div.btn:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        div.btn {
+            display: block;
+            margin: 0px auto;
+            width: 75%;
+            max-width: 250px;
+            color: $white;
+            border: solid thick $white;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+}
